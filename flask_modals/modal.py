@@ -3,6 +3,7 @@ from functools import wraps
 from flask import (Blueprint, render_template, get_flashed_messages,
                    _app_ctx_stack, request)
 from jinja2.utils import markupsafe
+#here updating the import of partial.py
 from .partial import get_partial
 
 
