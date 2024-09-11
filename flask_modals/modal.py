@@ -3,7 +3,7 @@ from functools import wraps
 from flask import (Blueprint, render_template, get_flashed_messages,
                    _app_ctx_stack, request)
 from jinja2.utils import markupsafe
-from flask_modals.partial import get_partial
+from .partial import get_partial
 
 
 def modal_messages():
